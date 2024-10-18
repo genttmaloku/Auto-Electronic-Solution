@@ -18,8 +18,9 @@ import VideoBg from '../assets/images/aes.mp4';
 import Tiktok1 from '../assets/images/tiktok1.png';
 import Tiktok2 from '../assets/images/tiktok2.png';
 import AES_About from '../assets/images/AES_About.jpg';
+import AES_About_2 from '../assets/images/AES_About2.png';
 
 
-const images = {header_main_img, AES13, VideoBg, AES_About, Tiktok1, Tiktok2, about_main_img, form_main_img, professionals_main_img, video_cover_img, customer_img_1, customer_img_2, customer_img_3, customer_img_4, customer_img_5, customer_img_6, portfolio_img_1, portfolio_img_2, portfolio_img_3};
+const images = {header_main_img, AES13, VideoBg, AES_About, AES_About_2, Tiktok1, Tiktok2, about_main_img, form_main_img, professionals_main_img, video_cover_img, customer_img_1, customer_img_2, customer_img_3, customer_img_4, customer_img_5, customer_img_6, portfolio_img_1, portfolio_img_2, portfolio_img_3};
 
 export default images;

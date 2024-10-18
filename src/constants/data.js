@@ -176,19 +176,19 @@ const contact = [
         id: 25,
         icon: <FaPhoneAlt style = {{ fill: '#f11a28' }} />,
         info: "+383 48 660 065",
-        text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing"
+        text: "Na telefononi ose kontaktoni përmes WhatsApp-it."
     },
     {
         id: 26,
         icon: <FaEnvelopeOpen style = {{ fill: '#f11a28' }} />,
         info: "dreni33@gmail.com",
-        text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing"
+       
     },
     {
         id: 27,
         icon: <FaMapMarkerAlt style = {{ fill: '#f11a28' }} />,
         info: "Prizren, Arbana  Rr.Wesley Clark",
-        text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing"
+       
     }
 ]
 

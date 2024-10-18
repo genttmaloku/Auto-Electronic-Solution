@@ -13,7 +13,6 @@ const Contact = () => {
                 <div className='contact-left'>
                     <div className='section-t'>
                         <h3>Lokacioni ynë</h3> 
-                        <p className='text'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit, assumenda quia repellendus architecto culpa nisi?</p>
                     </div>
 
                     {/* <Formik
