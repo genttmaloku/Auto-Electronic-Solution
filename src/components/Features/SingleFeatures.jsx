@@ -12,7 +12,7 @@ const SingleFeatures = (feature) => {
       <div className={`item-head flex flex-between bg-dark ${isActive ? 'item-head-border' : null}`} onClick = {() => setIsActive(!isActive)}>
         <h6 className='fs-20 fw-4 text-grey'>{feature.title}</h6>
         <button type = "button" className={`item-icon ${isActive ? 'item-icon-rotate' : ""}`}>
-            <BsPlusLg style = {{fill: gradient}} size = {22} />
+            <BsPlusLg style = {{fill: "#f11a28"}} size = {22} />
         </button>
       </div>
 

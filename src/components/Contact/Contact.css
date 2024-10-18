@@ -56,8 +56,8 @@
     transform: translateX(-50%);
     width: 0%;
     height: 5px;
-    background: rgb(87, 100, 222);
-    background: linear-gradient(45deg, rgba(87, 100, 222, 1) 0%, rgba(85, 179, 213, 1) 100%);
+    background: #f11a28;
+    background: linear-gradient(to right, #560202, #f11a28);
     transition: var(--transition);
 }
 .info .item:hover::after{
@@ -79,7 +79,11 @@
     transition: var(--transition);
 }
 .info .item:hover .item-link{
-    color: var(--clr-white);
+    color: #f11a28;
+}
+.section-t{
+    color: #f11a28;
+
 }
 
 @media screen and (min-width: 768px){

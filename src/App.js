@@ -16,7 +16,7 @@ function App() {
       <Header />
       <Services />
       <About />
-      <Qualities />
+      {/* <Qualities /> */}
       <Features />
       <Portfolio />
       <Testimonials />

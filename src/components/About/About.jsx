@@ -8,14 +8,14 @@ const About = () => {
         <div className='container'>
             <div className='about-content grid text-center'>
                 <div className = "content-left">
-                    <img src = {images.about_main_img} alt = "" />
+                    <img src = {images.AES_About} alt = "" />
                 </div>
                 <div className='content-right'>
                     <div className='section-t'>
-                        <h3>About Us</h3>
+                        <h3>Rreth Nesh</h3>
                     </div>
-                    <p className = "text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit qui eum at unde ipsa quibusdam sunt incidunt voluptates dicta ab provident doloremque perferendis ad voluptatem mollitia amet magnam, hic aliquam cupiditate blanditiis quas eos neque saepe? Quas expedita cupiditate et sint nesciunt, ipsum eos reiciendis cumque. At provident ab veritatis.</p>
-                    <p className='text'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur nobis laudantium nesciunt maxime tenetur illo.</p>
+                    <p className = "text">AES është një kompani e specializuar në ofrimin e shërbimeve të avancuara për automjete, duke operuar që nga viti 2010. Me një ekip profesionistësh të kualifikuar, ne ofrojmë një gamë të gjerë shërbimesh, përfshirë chip tuning, diagnostikim dhe riprogramim ECU, retrofit të sistemeve, si dhe riparim dhe shumëzim të çelësave për automjete të ndryshme. AES është e angazhuar për t'iu ofruar klientëve shërbime cilësore dhe teknologji të avancuar për të përmirësuar performancën dhe efikasitetin e automjeteve të tyre. Me një përvojë të pasur dhe një histori suksesi, AES është partneri ideal për ata që kërkojnë shërbime të besueshme dhe inovative në fushën e automobilizmit.</p>
+                    <p className='text'></p>
                 </div>
             </div>
         </div>

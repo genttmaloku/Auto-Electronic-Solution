@@ -1,46 +1,47 @@
 import images from "./images";
-import {FaPaperPlane, FaEdit, FaRocket, FaShoppingCart, FaFileAlt, FaPhoneAlt, FaEnvelopeOpen, FaMapMarkerAlt} from "react-icons/fa";
-import {BiDollarCircle} from "react-icons/bi";
-import {ImMagicWand} from "react-icons/im";
-import {AiOutlineReload} from "react-icons/ai";
+import {FaMicrochip, FaTools,FaTachometerAlt   ,FaCog, FaFileAlt, FaPhoneAlt, FaEnvelopeOpen, FaMapMarkerAlt} from "react-icons/fa";
+import {FaCar} from "react-icons/fa";
+import {ImMagicWand, ImKey, ImWrench} from "react-icons/im";
+import {AiOutlineReload, } from "react-icons/ai";
+import {AiOutlineKey } from "react-icons/ai";
 
 const gradient = "url(#blue-gradient)" ;
 
 const services = [
     {
         id: 1,
-        icon: <FaPaperPlane style = {{ fill: gradient }} />,
-        title: "Digital Marketing",
+        icon: <FaMicrochip style = {{ fill: '#f11a28' }} />,
+        title: "CHIP TUNING",
         text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing"
     },
     {
         id: 2,
-        icon: <BiDollarCircle style = {{ fill: gradient }} />,
-        title: "Trade Shows",
+        icon: <FaCar style = {{fill: '#f11a28' }} />,
+        title: "DPF EGR ADBLUE",
         text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing"
     },
     {
         id: 3,
-        icon: <FaRocket style = {{ fill: gradient }} />,
-        title: "Branding",
+        icon: <FaTools style = {{ fill: '#f11a28' }} />,
+        title: "Diagnostifikim dhe Riprogramim ECU te Kamioneve",
         text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing"
     },
     {
         id: 4, 
-        icon: <FaEdit style = {{ fill: gradient }} />,
-        title: "Content Creation",
+        icon: <ImKey  style = {{ fill: '#f11a28' }} />,
+        title: "Riparim dhe Shumezimi i Celesave",
         text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing"
     },
     {
         id: 5,
-        icon: <ImMagicWand style = {{ fill: gradient }} />,
-        title: "Grpahic Design",
+        icon: <ImWrench style = {{fill: '#f11a28' }} />,
+        title: "Diagnostifikim dhe Riprogramim ECU",
         text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing"
     },
     {
         id: 6,
-        icon: <FaShoppingCart style = {{ fill: gradient }} />,
-        title: "Media Buying",
+        icon: <FaTachometerAlt  style = {{ fill: '#f11a28' }} />,
+        title: "Retrofit",
         text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing"
     }
 ];
@@ -55,13 +56,13 @@ const about = [
 const qualities = [
     {
         id: 8,
-        icon: <FaFileAlt style = {{ fill: gradient }} />,
+        icon: <FaFileAlt style = {{ fill: '#f11a28' }} />,
         title: "Ideas & Plans",
         text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod."
     },
     {
         id: 9,
-        icon: <AiOutlineReload style = {{ fill: gradient }}  />,
+        icon: <AiOutlineReload style = {{ fill: '#f11a28' }}  />,
         title: "Prompt Strategies",
         text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod."
     }
@@ -70,32 +71,32 @@ const qualities = [
 const features = [
     {
         id: 10,
-        title: "Digital Marketing",
+        title: "CHIP TUNING",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et elit vitae lectus convallis scelerisque. Cras vestibulum blandit lorem, at fringilla nisl sollicitudin ac. Nunc venenatis nec neque sed semper. Mauris viverra, sapien sed fringilla egestas, sem felis condimentum augue, vitae sodales sem metus in ex. Aenean massa velit, sollicitudin quis elementum sit amet, vehicula sed nunc."
     },
     {
         id: 11,
-        title: "Trade Shows",
+        title: "DPF EGR ADBLUE",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et elit vitae lectus convallis scelerisque. Cras vestibulum blandit lorem, at fringilla nisl sollicitudin ac. Nunc venenatis nec neque sed semper. Mauris viverra, sapien sed fringilla egestas, sem felis condimentum augue, vitae sodales sem metus in ex. Aenean massa velit, sollicitudin quis elementum sit amet, vehicula sed nunc."
     },
     {
         id: 12,
-        title: "Branding",
+        title: "Diagnostifikim dhe Riprogramim ECU te Kamioneve",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et elit vitae lectus convallis scelerisque. Cras vestibulum blandit lorem, at fringilla nisl sollicitudin ac. Nunc venenatis nec neque sed semper. Mauris viverra, sapien sed fringilla egestas, sem felis condimentum augue, vitae sodales sem metus in ex. Aenean massa velit, sollicitudin quis elementum sit amet, vehicula sed nunc."
     },
     {
         id: 13,
-        title: "Content Creation",
+        title: "Riparim dhe Shumezimi i Celesav",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et elit vitae lectus convallis scelerisque. Cras vestibulum blandit lorem, at fringilla nisl sollicitudin ac. Nunc venenatis nec neque sed semper. Mauris viverra, sapien sed fringilla egestas, sem felis condimentum augue, vitae sodales sem metus in ex. Aenean massa velit, sollicitudin quis elementum sit amet, vehicula sed nunc."
     }, 
     {
         id: 14,
-        title: "Graphic Design",
+        title: "Diagnostifikim dhe Riprogramim ECU",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et elit vitae lectus convallis scelerisque. Cras vestibulum blandit lorem, at fringilla nisl sollicitudin ac. Nunc venenatis nec neque sed semper. Mauris viverra, sapien sed fringilla egestas, sem felis condimentum augue, vitae sodales sem metus in ex. Aenean massa velit, sollicitudin quis elementum sit amet, vehicula sed nunc."
     },
     {
         id: 15,
-        title: "Media Buying",
+        title: "Retrofit",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et elit vitae lectus convallis scelerisque. Cras vestibulum blandit lorem, at fringilla nisl sollicitudin ac. Nunc venenatis nec neque sed semper. Mauris viverra, sapien sed fringilla egestas, sem felis condimentum augue, vitae sodales sem metus in ex. Aenean massa velit, sollicitudin quis elementum sit amet, vehicula sed nunc."
     }
 ];
@@ -103,21 +104,25 @@ const features = [
 const portfolio = [
     {
         id: 16,
-        title: "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
-        text: "Lorem ipsum dolor sit amet, consectetur adipisicing elits",
-        image: images.portfolio_img_1,
+        title: "Ndrimi i Retrofitit",
+        text: "Kliko për ta shikuar videon!",
+        image: images.Tiktok1,
+        tiktokUrl: 'https://www.tiktok.com/@aes_center/video/7400693926174149893'
     },
     {
         id: 17,
-        title: "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
-        text: "Lorem ipsum dolor sit amet, consectetur adipisicing elits",
-        image: images.portfolio_img_2,
+        title: "Golf 8 GTE. Add key. Lost key deleted",
+        text: "Kliko për ta shikuar videon!",
+        image: images.Tiktok2,
+        tiktokUrl: 'https://www.tiktok.com/@aes_center/photo/7350618616238214406'
+       
     },
     {
         id: 18,
-        title: "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
-        text: "Lorem ipsum dolor sit amet, consectetur adipisicing elits",
-        image: images.portfolio_img_3,
+        title: "Ndrimi i Retrofitit",
+        text: "Kliko për ta shikuar videon!",
+        image: images.Tiktok1,
+        tiktokUrl: 'https://www.tiktok.com/@aes_center/video/7400693926174149893'
     }
 ];
 
@@ -169,20 +174,20 @@ const testimonials = [
 const contact = [
     {
         id: 25,
-        icon: <FaPhoneAlt style = {{ fill: gradient }} />,
-        info: "+425 235 712",
+        icon: <FaPhoneAlt style = {{ fill: '#f11a28' }} />,
+        info: "+383 48 660 065",
         text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing"
     },
     {
         id: 26,
-        icon: <FaEnvelopeOpen style = {{ fill: gradient }} />,
-        info: "solnhub@info.com",
+        icon: <FaEnvelopeOpen style = {{ fill: '#f11a28' }} />,
+        info: "dreni33@gmail.com",
         text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing"
     },
     {
         id: 27,
-        icon: <FaMapMarkerAlt style = {{ fill: gradient }} />,
-        info: "United Kingdom, New Street",
+        icon: <FaMapMarkerAlt style = {{ fill: '#f11a28' }} />,
+        info: "Prizren, Arbana  Rr.Wesley Clark",
         text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing"
     }
 ]

@@ -234,8 +234,8 @@ input, textarea, select{
   transform: translateX(-50%);
   height: 5px;
   width: 60px;
-  background: rgb(87, 100, 222);
-  background: linear-gradient(45deg, rgba(87, 100, 222, 1) 0%, rgba(85, 179, 213, 1) 100%);
+  background: #f11a28;
+  background: linear-gradient(to right,  #cc0a1f, #f11a28);
 }
 
 /* item */

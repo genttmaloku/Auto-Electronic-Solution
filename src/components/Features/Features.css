@@ -6,7 +6,7 @@
     cursor: pointer;
 }
 .features .item-head-border{
-    border-bottom: 2px solid var(--clr-robin-blue);
+    border-bottom: 2px solid #f11a28;
 }
 .features .item-body{
     margin-top: 16px;
@@ -25,4 +25,7 @@
 }
 .features .item-icon-rotate{
     transform: rotate(45deg);
+}
+.title{
+    color: #f11a28;
 }

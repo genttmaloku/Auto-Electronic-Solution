@@ -9,6 +9,7 @@ const Features = () => {
         <div className='container'>
             <div className='features-content'>
                 <div className='item-list text-white'>
+                <h1 className='title'>Sherbimet</h1>
                     {
                         sections.features.map(feature => {
                             return (

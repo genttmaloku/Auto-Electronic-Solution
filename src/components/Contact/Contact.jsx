@@ -12,11 +12,11 @@ const Contact = () => {
             <div className='contact-content grid text-center'>
                 <div className='contact-left'>
                     <div className='section-t'>
-                        <h3>Let's Talk?</h3> 
+                        <h3>Lokacioni ynë</h3> 
                         <p className='text'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit, assumenda quia repellendus architecto culpa nisi?</p>
                     </div>
 
-                    <Formik
+                    {/* <Formik
                         initialValues={{ name: "", email: '', address: '' }}
                         validate={values => {
                             const errors = {};
@@ -55,7 +55,7 @@ const Contact = () => {
                             handleBlur,
                             handleSubmit,
                             isSubmitting,
-                            /* and other goodies */
+                         
                         }) => (
                             <form onSubmit={handleSubmit}>
                                 <div className='form-elem'>
@@ -78,12 +78,12 @@ const Contact = () => {
                                 </div>
                             </form>
                         )}
-                        </Formik>
+                        </Formik> */}
                 </div>
 
-                <div className='contact-right'>
+                {/* <div className='contact-right'>
                     <img src = {images.form_main_img} alt = "" />
-                </div>
+                </div> */}
             </div>
         </div>
 
