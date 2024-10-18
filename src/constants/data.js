@@ -129,45 +129,39 @@ const portfolio = [
 const testimonials = [
     {
         id: 19,
-        name: "Marie Jordan",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing.",
-        image: images.customer_img_1,
-        rating: 3
+    
+        image: images.Tiktok1,
+       
     },
     {
         id: 20,
-        name: "Ann Brown",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing.",
-        image: images.customer_img_2,
-        rating: 5
+      
+        image: images.Tiktok1,
+   
     },
     {
         id: 21,
-        name: "Andrew Bill",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing.",
-        image: images.customer_img_3,
-        rating: 2
+       
+        image: images.Tiktok1,
+      
     },
     {
         id: 22,
-        name: "Jason Stawer",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing.",
-        image: images.customer_img_4,
-        rating: 4
+       
+        image: images.Tiktok1,
+       
     },
     {
         id: 23,
-        name: "Lisa Green",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing.",
-        image: images.customer_img_5,
-        rating: 2
+       
+        image: images.Tiktok1,
+      
     },
     {
         id: 24,
-        name: "Anna Doe",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing.",
-        image: images.customer_img_6,
-        rating: 4
+       
+        image: images.Tiktok1,
+     
     }
 ]
 

@@ -15,17 +15,16 @@
     transform: translateX(-50%);
     width: 0%;
     height: 5px;
-    background: rgb(87, 100, 222);
-    background: linear-gradient(45deg, rgba(87, 100, 222, 1) 0%, rgba(85, 179, 213, 1) 100%);
+    background: #f11a28;
+    background: linear-gradient(to right, #560202, #f11a28);
     transition: var(--transition);
 }
 .testimonials .item:hover::after{
     width: 100%;
 }
 .testimonials .item-img{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+    width: auto;
+    height: auto;  
     overflow: hidden;
     margin-right: auto;
     margin-left: auto;
