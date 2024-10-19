@@ -71,33 +71,39 @@ const qualities = [
 const features = [
     {
         id: 10,
+        icon: <FaMicrochip style = {{ fill: '#f11a28' }} />,
         title: "CHIP TUNING",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et elit vitae lectus convallis scelerisque. Cras vestibulum blandit lorem, at fringilla nisl sollicitudin ac. Nunc venenatis nec neque sed semper. Mauris viverra, sapien sed fringilla egestas, sem felis condimentum augue, vitae sodales sem metus in ex. Aenean massa velit, sollicitudin quis elementum sit amet, vehicula sed nunc."
+        text: "Rrit performancën e motorit duke optimizuar ECU-në. Përfitoni më shumë fuqi, përshpejtim më të mirë dhe efikasitet më të lartë të karburantit. Proces i sigurt dhe i kthyeshëm për çdo automjet."
     },
     {
         id: 11,
+        icon: <FaCar style = {{fill: '#f11a28' }} />,
         title: "DPF EGR ADBLUE",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et elit vitae lectus convallis scelerisque. Cras vestibulum blandit lorem, at fringilla nisl sollicitudin ac. Nunc venenatis nec neque sed semper. Mauris viverra, sapien sed fringilla egestas, sem felis condimentum augue, vitae sodales sem metus in ex. Aenean massa velit, sollicitudin quis elementum sit amet, vehicula sed nunc."
+        text: "Pastrojmë dhe riparojmë filtrat e grimcave (DPF), valvulat EGR dhe sistemet AdBlue për të përmirësuar efiçencën e motorit dhe për të reduktuar emetimet. Shërbim i domosdoshëm për një performancë më të pastër dhe më të mirë."
     },
     {
         id: 12,
+        icon: <FaTools style = {{ fill: '#f11a28' }} />,
         title: "Diagnostifikim dhe Riprogramim ECU te Kamioneve",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et elit vitae lectus convallis scelerisque. Cras vestibulum blandit lorem, at fringilla nisl sollicitudin ac. Nunc venenatis nec neque sed semper. Mauris viverra, sapien sed fringilla egestas, sem felis condimentum augue, vitae sodales sem metus in ex. Aenean massa velit, sollicitudin quis elementum sit amet, vehicula sed nunc."
+        text: "Kryejmë diagnostifikim të avancuar dhe riprogramim të ECU për kamionë, duke optimizuar performancën e motorit dhe zgjidhur çdo problem elektronik. Garantojmë funksionim të sigurt dhe më efikas."
     },
     {
         id: 13,
+        icon: <ImKey  style = {{ fill: '#f11a28' }} />,
         title: "Riparim dhe Shumezimi i Celesav",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et elit vitae lectus convallis scelerisque. Cras vestibulum blandit lorem, at fringilla nisl sollicitudin ac. Nunc venenatis nec neque sed semper. Mauris viverra, sapien sed fringilla egestas, sem felis condimentum augue, vitae sodales sem metus in ex. Aenean massa velit, sollicitudin quis elementum sit amet, vehicula sed nunc."
+        text: "Ofrim i shërbimeve të riparimit dhe kopjimit të çelësave të automjeteve. Zgjidhje e shpejtë dhe e sigurt për çdo lloj çelësi, përfshirë çelësat inteligjentë dhe me telekomandë."
     }, 
     {
         id: 14,
+        icon: <ImWrench style = {{fill: '#f11a28' }} />,
         title: "Diagnostifikim dhe Riprogramim ECU",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et elit vitae lectus convallis scelerisque. Cras vestibulum blandit lorem, at fringilla nisl sollicitudin ac. Nunc venenatis nec neque sed semper. Mauris viverra, sapien sed fringilla egestas, sem felis condimentum augue, vitae sodales sem metus in ex. Aenean massa velit, sollicitudin quis elementum sit amet, vehicula sed nunc."
+        text: "Zbulim dhe zgjidhje e problemeve elektronike të motorit përmes diagnostifikimit të saktë dhe riprogramimit të ECU. Përmirëson performancën dhe siguron funksionim optimal të automjetit."
     },
     {
         id: 15,
+        icon: <FaTachometerAlt  style = {{ fill: '#f11a28' }} />,
         title: "Retrofit",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et elit vitae lectus convallis scelerisque. Cras vestibulum blandit lorem, at fringilla nisl sollicitudin ac. Nunc venenatis nec neque sed semper. Mauris viverra, sapien sed fringilla egestas, sem felis condimentum augue, vitae sodales sem metus in ex. Aenean massa velit, sollicitudin quis elementum sit amet, vehicula sed nunc."
+        text: "Përshtatim dhe përmirësim i pajisjeve ekzistuese të automjetit me komponentë të rinj dhe më të avancuar, duke ruajtur infrastrukturën aktuale. Ideal për të rritur funksionalitetin dhe efikasitetin pa ndërruar të gjithë sistemin"
     }
 ];
 

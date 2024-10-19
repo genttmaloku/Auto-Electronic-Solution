@@ -1,31 +1,72 @@
-.features .item-icon{
+.features .item-icon {
     transition: var(--transition);
 }
-.features .item-head{
+
+.features .item-head {
     padding: 18px 28px;
     cursor: pointer;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;  /* Kjo do të sigurojë që ikona dhe titulli të jenë të ndara */
+    gap: 12px; /* Hapësirë midis ikonës dhe titullit */
 }
-.features .item-head-border{
+
+.features .item-head-border {
     border-bottom: 2px solid #f11a28;
 }
-.features .item-body{
+
+.features .item-body {
     margin-top: 16px;
-    max-height: 0;
-    overflow: hidden;
-    transition: all 500ms linear;
+    max-height: 0; /* Fillimisht i mbyllur */
+    overflow: hidden; /* Mos e lejo përmbajtjen të shfaqet jashtë */
+    transition: max-height 500ms linear, overflow 0s ease-out; /* Animacion për max-height */
 }
-.features .item-body .text{
-    padding-bottom: 16px;
+
+.features .item-body-show {
+    max-height: 1000px; /* Ky është kufiri i hapjes (mund të rregullohet sipas përmbajtjes) */
+    overflow-y: auto; /* Mundëson shfletimin e përmbajtjes pas hapjes */
 }
-.features .item-body .text{
-    padding-bottom: 16px;
-}
-.features .item-body-show{
+
+
+.features .item-body-show {
     max-height: 200px;
 }
-.features .item-icon-rotate{
+
+.features .item-icon-rotate {
     transform: rotate(45deg);
 }
-.title{
+
+.title {
     color: #f11a28;
+}
+
+/* Media Queries për responsivitet */
+@media (max-width: 768px) {
+    .features .item-head {
+        padding: 15px 20px; /* Pak hapësirë më e vogël për ekranet më të vogla */
+    }
+
+    .features .item-head h6 {
+        font-size: 18px; 
+        margin-left: 0; /* Heqim margjinën për të centralizuar më mirë */
+    }
+
+    .features .item-body .text {
+        font-size: 30px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .features .item-head {
+        padding: 12px 16px; /* Edhe më pak hapësirë për ekranet më të vogla */
+    }
+
+    .features .item-head h6 {
+        font-size: 16px; 
+        margin-left: 0; /* Heqim margjinën për të qenë më e centralizuar */
+    }
+
+    .features .item-body .text {
+        font-size: 20px; 
+    }
 }
