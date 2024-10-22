@@ -142,7 +142,7 @@ const testimonials = [
     {
         id: 20,
       
-        image: images.Tiktok1,
+        image: images.Tiktok2,
    
     },
     {
@@ -154,7 +154,7 @@ const testimonials = [
     {
         id: 22,
        
-        image: images.Tiktok1,
+        image: images.Tiktok2,
        
     },
     {
@@ -166,7 +166,7 @@ const testimonials = [
     {
         id: 24,
        
-        image: images.Tiktok1,
+        image: images.Tiktok2,
      
     }
 ]
