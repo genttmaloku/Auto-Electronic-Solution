@@ -1,31 +1,78 @@
 .testimonials .swiper {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
+}
+
+.testimonials .swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonials .item-img {
+  width: 100%;
+  height: 600px; /* Vendos një lartësi të caktuar për të gjitha fotot */
+  overflow: hidden;
+  border-radius: 8px; /* Radius i barabartë për të gjithë kutinë */
+}
+
+.testimonials .item-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Siguron që imazhi të mbushë plotësisht hapësirën pa u shtrembëruar */
+  border-radius: inherit; /* Trashëgon radiusin nga prindi */
+}
+
+.testimonials .swiper-pagination-bullet {
+  background-color: #f11a28;
+}
+
+.testimonials .swiper-button-next, 
+.testimonials .swiper-button-prev {
+  color: #f11a28;
+}
+
+.mySwiper {
+  width: 100%;
+  height: auto;
+}
+
+.testimonials .item {
+  overflow: hidden; /* Siguron që radiusi të ruhet edhe gjatë hover */
+  border-radius: 8px; /* Vendos radiusin për të gjithë kutinë */
+  transition: transform 0.3s ease; /* Efekt animacioni gjatë hover */
+}
+
+.testimonials .item:hover {
+  transform: scale(1.05); /* Efekt zmadhimi gjatë hover, opsional */
+}
+/* Për ekranet më të vogla (p.sh. tabletët dhe celularët) */
+
+/* Për ekranet 1024px dhe më të vogla */
+@media (max-width: 1024px) {
+  .testimonials .item-img {
+    height: 400px; /* Redukto lartësinë për ekranet më të vogla */
   }
-  
-  .testimonials .swiper-slide {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+}
+
+/* Për ekranet 768px dhe më të vogla (tabletët dhe pajisjet e tjera më të vogla) */
+@media (max-width: 768px) {
+  .testimonials .item-img {
+    height: 350px; /* Redukto lartësinë për ekranet më të vogla */
   }
-  
+}
+
+/* Për celularët (480px dhe më të vogla) */
+@media (max-width: 480px) {
+  .testimonials .item-img {
+    height: 300px; /* Redukto lartësinë për celularët */
+  }
+}
+
+/* Siguro që të gjitha fotot të kenë të njëjtën madhësi dhe të jenë të përshtatshme për ekranet e vogla */
+@media (max-width: 768px) {
   .testimonials .item-img img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    border-radius: 8px;
+    object-fit: cover; /* Siguron që imazhi mbush plotësisht hapësirën pa u shtrembëruar */
+    border-radius: 8px; /* Radius i njëjtë për të gjitha fotot */
   }
-  
-  .testimonials .swiper-pagination-bullet {
-    background-color: #f11a28;
-  }
-  
-  .testimonials .swiper-button-next, 
-  .testimonials .swiper-button-prev {
-    color: #f11a28;
-  }
- 
-  .mySwiper {
-    width: 100%; 
-    height: auto;
 }

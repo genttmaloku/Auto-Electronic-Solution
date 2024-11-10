@@ -136,39 +136,70 @@ const testimonials = [
     {
         id: 19,
     
-        image: images.Tiktok1,
+        image: images.Slider1,
        
     },
     {
         id: 20,
       
-        image: images.Tiktok2,
+        image: images.Slider2,
    
     },
     {
         id: 21,
        
-        image: images.Tiktok1,
+        image: images.Slider3,
       
     },
     {
         id: 22,
        
-        image: images.Tiktok2,
+        image: images.Slider4,
        
     },
     {
         id: 23,
        
-        image: images.Tiktok1,
+        image: images.Slider5,
       
     },
     {
         id: 24,
        
-        image: images.Tiktok2,
+        image: images.Slider6,
+     
+    },
+    {
+        id: 24,
+       
+        image: images.Slider7,
+     
+    },
+    {
+        id: 24,
+       
+        image: images.Slider8,
+     
+    },
+    {
+        id: 24,
+       
+        image: images.Slider9,
+     
+    },
+    {
+        id: 24,
+       
+        image: images.Slider10,
+     
+    },
+    {
+        id: 24,
+       
+        image: images.Slider11,
      
     }
+
 ]
 
 const contact = [
