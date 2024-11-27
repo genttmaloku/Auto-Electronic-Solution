@@ -19,7 +19,7 @@
     background: linear-gradient(45deg, rgba(87, 100, 222, 0.6) 0%, rgba(85, 179, 213, 0.7) 100%);
     left: 0;
     top: 0;
-    opacity: 1; /* Siguro që gradienti është gjithmonë i dukshëm */
+    opacity: 1; 
     transition: var(--transition);
 }
 
@@ -54,12 +54,12 @@
         grid-template-columns: repeat(3, 1fr);
     }
 
-    /* Siguro që ngjyra dhe shenimet janë gjithmonë të dukshme */
+ 
     .portfolio .item * {
-        opacity: 1; /* Gjithmonë të dukshëm */
+        opacity: 1; 
     }
 
     .portfolio .item::after {
-        opacity: 1; /* Gradienti gjithmonë i dukshëm */
+        opacity: 1; 
     }
 }

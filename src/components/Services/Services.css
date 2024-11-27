@@ -3,6 +3,7 @@
     cursor: pointer;
     transition: var(--transition);
     position: relative;
+    border-radius: 10px;
 }
 .services .item::after{
     position: absolute;

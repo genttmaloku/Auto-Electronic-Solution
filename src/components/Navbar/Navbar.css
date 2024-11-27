@@ -83,6 +83,7 @@
     background-color: var(--clr-robin-blue);
 }
 
+
 @media screen and (min-width: 578px){
     .navbar-collapse{
         width: 320px;
@@ -115,11 +116,11 @@
         margin-top: 0;
         margin-left: 28px;
     }
-    .navbar-nav li{
-        margin: 0;
-        font-size: 1.9rem;
-        font-weight: 500;
-        margin-left: 36px;
+    .navbar-nav li {
+        margin: 0 15px; 
+        font-size: 1.8rem; 
+        list-style: none; 
+        white-space: nowrap; 
     }
     .navbar-nav li:hover{
         color: #f11a28;

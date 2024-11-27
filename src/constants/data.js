@@ -12,37 +12,37 @@ const services = [
         id: 1,
         icon: <FaMicrochip style = {{ fill: '#f11a28' }} />,
         title: "CHIP TUNING",
-        text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing"
+        text: ""
     },
     {
         id: 2,
         icon: <FaCar style = {{fill: '#f11a28' }} />,
         title: "DPF EGR ADBLUE",
-        text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing"
+        text: ""
     },
     {
         id: 3,
         icon: <FaTools style = {{ fill: '#f11a28' }} />,
         title: "Diagnostifikim dhe Riprogramim ECU te Kamioneve",
-        text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing"
+        text: ""
     },
     {
         id: 4, 
         icon: <ImKey  style = {{ fill: '#f11a28' }} />,
         title: "Riparim dhe Shumezimi i Celesave",
-        text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing"
+        text: ""
     },
     {
         id: 5,
         icon: <ImWrench style = {{fill: '#f11a28' }} />,
         title: "Diagnostifikim dhe Riprogramim ECU",
-        text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing"
+        text: ""
     },
     {
         id: 6,
         icon: <FaTachometerAlt  style = {{ fill: '#f11a28' }} />,
         title: "Retrofit",
-        text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing"
+        text: ""
     }
 ];
 
@@ -119,7 +119,7 @@ const portfolio = [
         id: 17,
         title: "Golf 8 GTE. Add key. Lost key deleted",
         text: "Kliko për ta shikuar videon!",
-        image: images.Tiktok2,
+        image: images.TT1,
         tiktokUrl: 'https://www.tiktok.com/@aes_center/photo/7350618616238214406'
        
     },
@@ -129,7 +129,8 @@ const portfolio = [
         text: "Kliko për ta shikuar videon!",
         image: images.Tiktok1,
         tiktokUrl: 'https://www.tiktok.com/@aes_center/video/7400693926174149893'
-    }
+    },
+    
 ];
 
 const testimonials = [

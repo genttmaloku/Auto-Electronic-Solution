@@ -4,9 +4,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden; /* Siguron që asnjë pjesë e videos nuk del jashtë */
+    overflow: hidden; 
 }
-
 .video-container {
     position: absolute;
     top: 0;
@@ -14,29 +13,32 @@
     width: 100%;
     height: 100%;
     overflow: hidden;
-    z-index: -1; /* Video shfaqet prapa përmbajtjes */
+    z-index: -1; 
 }
 
 .background-video {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Siguron që video të mbushë ekranin pa deformime */
+    object-fit: cover; 
     
 }
 
 .container {
     position: relative;
-    z-index: 1; /* Përmbajtja është mbi videon */
+    z-index: 1; 
 }
 
 .header-title {
     font-size: 50px;
     font-weight: 900;
     line-height: 1.2;
-    background: linear-gradient(to right, #560202, #f11a28);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    opacity: 80%;
+    text-shadow: 2px 2px 0 #f11a28, 
+                 -2px 2px 0 #f11a28, 
+                 2px -2px 0 #f11a28, 
+                 -2px -2px 0 #f11a28; /* Simulon konturën */
 }
+
 
 @media screen and (min-width: 600px) {
     .header-title {
