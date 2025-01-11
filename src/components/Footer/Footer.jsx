@@ -10,7 +10,8 @@ const Footer = () => {
         <div className='container flex flex-center w-100'>
             <div className='grid footer-content text-center'>
                 <p className='text'>Auto Electronic Solution </p>
-                <span className='text'>&copy; {date.getFullYear().toString()} AES</span>
+                <span className='text'>&copy; {date.getFullYear().toString()} AES | A GM CREATION</span>
+               
             </div>
         </div>
     </footer>

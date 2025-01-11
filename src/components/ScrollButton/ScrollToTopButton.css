@@ -1,0 +1,26 @@
+.scroll-to-top {
+    position: fixed;
+    bottom: 50px;  /* Pozita në fund të faqes */
+    right: 30px;  /* Pozita nga e djathta */
+    background-color: #f11a28;
+    color: white;
+    border: none;
+    font-size: 25px;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+    height: 50px;
+    width: 50px;
+  }
+  
+  .scroll-to-top:hover {
+    opacity: 1;
+  }
+  
+  .scroll-to-top:focus {
+    outline: none;
+  }
+  
